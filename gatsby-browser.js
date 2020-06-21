@@ -5,13 +5,3 @@
  */
 
 // You can delete this file if you're not using it
-module.exports = {
-	plugins: [
-		{
-			resolve: `gatsby-plugin-styled-components`,
-			options: {
-				// Add any options here
-			},
-		},
-	],
-};
