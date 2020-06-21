@@ -56,19 +56,29 @@ export default function Navbar() {
 						</StyledLink>
 					</NavItem>
 					<NavItem>
-						<StyledLink to="/about">About</StyledLink>
+						<StyledLink to="/about" activeStyle={activeLink}>
+							About
+						</StyledLink>
 					</NavItem>
 					<NavItem>
-						<StyledLink to="/media">Media</StyledLink>
+						<StyledLink to="/media" activeStyle={activeLink}>
+							Media
+						</StyledLink>
 					</NavItem>
 					<NavItem>
-						<StyledLink to="/events">Events</StyledLink>
+						<StyledLink to="/events" activeStyle={activeLink}>
+							Events
+						</StyledLink>
 					</NavItem>
 					<NavItem>
-						<StyledLink to="/blog">Blog</StyledLink>
+						<StyledLink to="/blog" activeStyle={activeLink}>
+							Blog
+						</StyledLink>
 					</NavItem>
 					<NavItem>
-						<StyledLink to="/contact">Contact</StyledLink>
+						<StyledLink to="/contact" activeStyle={activeLink}>
+							Contact
+						</StyledLink>
 					</NavItem>
 				</NavMenu>
 			</nav>
