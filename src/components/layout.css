@@ -209,6 +209,7 @@ body {
 	-webkit-font-feature-settings: "kern", "liga", "clig", "calt";
 	font-feature-settings: "kern", "liga", "clig", "calt";
 	background-image: url(../images/background.jpg);
+	background-color: #1b1754;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
