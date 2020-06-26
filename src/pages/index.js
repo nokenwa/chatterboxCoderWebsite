@@ -82,7 +82,7 @@ const IndexPage = () => (
 					stroke-width="4"
 				/>
 			</svg>
-			<Subtitle>Nathaniel Okenwa</Subtitle>
+			<Subtitle>Nathan</Subtitle>
 			<Socials>
 				<SocialLink
 					href="https://www.twitch.tv/chatterboxcoder"
