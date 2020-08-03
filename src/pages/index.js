@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Image from "../components/image";
 import SEO from "../components/seo";
-import sexyAsFuck from "../images/saf.png";
+import graphicLogo from "../images/chatterbox.png";
 
 import styled from "styled-components";
 
@@ -216,7 +216,7 @@ const IndexPage = () => (
 			</Socials>
 		</TitleDiv>
 
-		<GraphicImage src={sexyAsFuck} />
+		<GraphicImage src={graphicLogo} />
 	</Layout>
 );
 
