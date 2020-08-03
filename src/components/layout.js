@@ -14,34 +14,32 @@ import "typeface-montserrat";
 import "./layout.css";
 
 const Layout = ({ children }) => {
-	const data = useStaticQuery(graphql`
-		query SiteTitleQuery {
-			site {
-				siteMetadata {
-					title
-				}
-			}
-		}
-	`);
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
 
-	return (
-		<>
-			<NavBar />
-			<div
-				style={{
-					margin: `0 auto`,
-					maxWidth: 960,
-					padding: `0 1.0875rem 1.45rem`,
-				}}
-			>
-				<main>{children}</main>
-			</div>
-		</>
-	);
+  return (
+    <>
+      <NavBar />
+      <div
+        style={{
+          padding: `4.5em 0`,
+        }}
+      >
+        <main>{children}</main>
+      </div>
+    </>
+  );
 };
 
 Layout.propTypes = {
-	children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

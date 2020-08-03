@@ -11,7 +11,7 @@ import styled from "styled-components";
 const TitleDiv = styled.div`
 	color: #ffffff;
 	position: absolute;
-	top: 25%;
+	top: 20%;
 	left: 0;
 	width: 100%;
 	text-align: center;
